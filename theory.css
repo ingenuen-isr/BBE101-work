@@ -1,0 +1,72 @@
+/*
+cmd + 0           - 
+cmd +             - zoom in
+cmd -             - zoom out
+cmd []            - indentation
+ctrl + w          - add link (in first lecture)
+
+---------------cursor duplication------------------
+1. cmd + mouse click -
+2. uncheck Missiom Control and App Window hot keys in settings
+   ctrl + shift + strelka vverx ili vniz
+----------------------------------
+* {...}      - appliea to all tegs!!! rarly used. usually once for a project
+E F {...}    - inhereted styles for the  childres of this specific tug,
+               but not others
+E > F {...}  - inhereted styles for the first level childres
+E ^ F {...}  - just for grandchildren
+E + F {...}  - all elements of kind F that come right after E
+E ~ F {...}  - all elements of kind F that come right after E if all tehy are
+               on the same level of hierarhy
+-----------------------------------
+E[foo="bar"] [...]       - selects element according to his atribute "bar"
+E[foo~="bar, baz"] [...] - selects element according to his atributes "bar","baz"
+E[foo|="bar"] [...]      - select elements with the specified attribute starting
+                           with the specified value. The value has to be a whole
+                           word, either alone, like lang="en", or followed by
+                           a hyphen( - ), like lang="en-us"
+E[foo^="bar"] [...]      - selects element with attribute starting from "bar"
+E[foo$="bar"] [...]      - selects element with attribute ends with "bar"
+E[foo*="bar"] [...]      - selects element with attribute "bar" inside
+
+----------------E:pseudo-class {...}--------------------------------------
+E.bar {...} - class
+E#bar {...} - id selectora
+
+E:first-child {...}
+E:last-child {...}
+E:only-child {...}
+E:first-of-type {...} - styling of the child element of the specific type
+E:last-of-type {...}
+E:only-of-type {...}
+
+E:nth-child(n) {...}
+E:nth-last-child(n) {...}
+E:nth-of-type(n) {...}
+E:nth-last-of-type(n) {...}
+
+E:empty {...} - if no children
+-------------------------
+E:tafget {...} - to move link to the specific part of the page
+-------------------------
+E:not(F) {...} - if not selector F
+E:not(:checked) {...}
+-------------------------
+E:link {...} - link was not pressed
+E:visited {...} - link was pressed
+E:hover {...}
+E:active {...}
+E:focus {...}
+E:enabled {...}
+E:disbled {...}
+E:checked {...}
+------------------E:pseudo-element {...}----------------------------------
+E::first-line{...}
+E::first-letter{...}
+E::before{...} - create contenet before or after element
+E::after{...}
+--------------------------------------------------------------------------
+span - display inline
+div  - display block (100% of the parent size)
+
+*/
