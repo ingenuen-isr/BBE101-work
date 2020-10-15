@@ -1,22 +1,25 @@
 /*
-cmd + 0           - 
+Atom->Preferences->Editor->Show Indent Guide
+Atom->Install  type Emmet -> Install Emmet plugin
+cmd + 0           -
 cmd +             - zoom in
 cmd -             - zoom out
 cmd []            - indentation
-ctrl + w          - add link (in first lecture)
-
+ctrl + w          - add link (in first lecture) (from Emmet plugin)
+cmd + shift + 4   - area screen shot (press escape before release mouth to
+                    discard shot) 
 ---------------cursor duplication------------------
 1. cmd + mouse click -
 2. uncheck Missiom Control and App Window hot keys in settings
    ctrl + shift + strelka vverx ili vniz
 ----------------------------------
-* {...}      - appliea to all tegs!!! rarly used. usually once for a project
+* {...}      - apply to all tegs!!! rarly used. usually once for a project
 E F {...}    - inhereted styles for the  childres of this specific tug,
                but not others
 E > F {...}  - inhereted styles for the first level childres
 E ^ F {...}  - just for grandchildren
 E + F {...}  - all elements of kind F that come right after E
-E ~ F {...}  - all elements of kind F that come right after E if all tehy are
+E ~ F {...}  - all elements of kind F that come right after E if all thеy are
                on the same level of hierarhy
 -----------------------------------
 E[foo="bar"] [...]       - selects element according to his atribute "bar"
