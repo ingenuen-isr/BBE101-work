@@ -1,13 +1,16 @@
 /*
 Atom->Preferences->Editor->Show Indent Guide
-Atom->Install  type Emmet -> Install Emmet plugin
+Atom->Preferences->Install  type Emmet -> Install Emmet plugin
 cmd + 0           -
 cmd +             - zoom in
 cmd -             - zoom out
 cmd []            - indentation
 ctrl + w          - add link (in first lecture) (from Emmet plugin)
 cmd + shift + 4   - area screen shot (press escape before release mouth to
-                    discard shot) 
+                    discard shot)
+---------------regular expresiions------------------
+regexr.com
+regex101.com
 ---------------cursor duplication------------------
 1. cmd + mouse click -
 2. uncheck Missiom Control and App Window hot keys in settings
